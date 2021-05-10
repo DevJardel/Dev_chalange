@@ -1,0 +1,117 @@
+@media (max-width: 900px){
+ 
+    .logo{
+        margin: auto;
+        margin-bottom: 10%;
+    }    
+    nav ul li{
+        display: inline-block;
+        font-size: 1.4rem;
+        padding: 0px 10px;
+    }
+
+    header{
+        flex-direction: column;
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-login{
+        display: none;
+    }
+    
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-code{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .text-child {
+        font-size: 1rem;
+    }
+    .text-child::after{
+        content: "Website incrível";
+        color: var(--vermelho);
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .btn-orç{
+        margin: auto;
+        font-size: 1rem;
+        padding: 5% 10%;
+      }
+    .container-contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+    .info{
+        font-size: 1.4rem;
+        order: 1;
+        margin-top: 15%;
+    }
+    .tel-info{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .h2-txt{
+        margin-left: 0 ;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #tel{
+        margin: 0;
+    }
+
+    .contato{
+        margin: 30px 0 0 0 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .container-card{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card1{
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .mercha {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}

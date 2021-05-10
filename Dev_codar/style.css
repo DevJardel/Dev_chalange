@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    --vermelho: #D6000D;
+    
+    list-style: none;
+    
+}
+
+/* Header */
+i{
+    color: var(--vermelho);
+}
+nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    align-items: baseline;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0 20px;
+}
+
+
+
+.btn-login{
+  color: white;
+  background-color: var(--vermelho);
+  font-size: 26px;
+  font-weight: 600;  
+  padding: 5px 50px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.logo{
+    font-weight: 800 ;
+    font-size: 3.5rem ;
+    margin-right: auto;
+    color: var(--vermelho);
+    text-decoration: none;
+}
+.logo::after{
+    display: inline-block;
+    content: ".";
+    color: #000000;
+}
+
+/* Conyainer main, img e solicitar orçamento */
+main{
+    display: flex;
+    /* padding: 30px; */
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+
+.img-code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    padding: 10% 0;    
+}
+
+
+.text-child::after{
+    content: "Website incrível";
+    color: var(--vermelho);
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.btn-orç{
+  color: white;
+  background-color: var(--vermelho);
+  font-size: 2rem;
+  font-weight: 600;  
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: auto;
+  padding: 10px 10%;
+}
+
+/* Container contato */
+.container-contato{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.imagem-hand{
+    width: 35%;
+    height: 35%;
+}
+
+.info{
+    font-size: 2rem;
+}
+
+
+.contato{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 15%;
+}
+
+#tel{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #E5E5E5;
+    margin-right: 12px;
+}
+
+.btn-ligamos{
+  color: white;
+  background-color: var(--vermelho);
+  font-size: 1rem;
+  font-weight: 600;  
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 2%;
+}
+
+.h2-txt{
+    margin-left: 15%;
+}
+
+/* Container-card */
+.container-card{
+    margin-top: 20%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content:  center;
+    margin-bottom: 5%;
+}
+
+.card1{
+    display: flex;
+    background-color: #E5E5E5;
+    width: 430px;
+    height: 150px;
+    border-radius: 12px;
+    align-items: center;
+    margin-right: 10%;
+    padding: 10px;
+}
+
+.circle-card1{
+    align-self: flex-start;
+    background-color: var(--vermelho);
+    height: 75px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+
+.card2{
+    display: flex;
+    align-items: center;
+    background-color: #E5E5E5;
+    width: 430px;
+    height: 150px;
+    border-radius: 12px;
+    padding: 10px;
+}
+.circle-card2{
+    align-self: flex-start;
+    background-color: var(--vermelho);
+    height: 80px;
+    width:  160px;
+    border-radius: 50%;
+}
+
+.text-info-card{
+    padding: 10px; 
+}
+
+#text-card{
+    margin-top: 2%;
+}
+
+/* Fotter da Pagina */
+footer{
+    display: flex;
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.main-footer{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    line-height: 40px;
+    padding: 20px 0;
+}
+
+.redes-sociais{
+    text-align: center;
+}
+.redes-sociais i{
+    font-size: 46px;
+    padding: 5px;
+}
